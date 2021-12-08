@@ -21,7 +21,7 @@ public class Program {
 		list.add(new Product("Mafia III", 48.50));
 		list.add(new Product("Xcom 2", 9.99));
 		
-		list.forEach(Product::staticPriceUpdate);
+		list.forEach(Product::nonStaticPriceUpdate);
 		
 		list.forEach(System.out::println);
 
